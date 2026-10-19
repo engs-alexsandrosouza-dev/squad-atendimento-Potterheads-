@@ -33,3 +33,14 @@ string frente_peek() const {
 
     return frente->nome;
 }
+int tamanho() const {
+    int total = 0;
+    No* atual = frente;
+
+    while (atual != nullptr) {
+        total++;
+        atual = atual->prox;
+    }
+
+    return total;
+}
