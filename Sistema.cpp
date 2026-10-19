@@ -66,3 +66,18 @@ struct FilaPacientes {
         return total;
     }
 };
+
+void push(const string& nome) {
+    int tamanho() const {
+    int total = 0;
+    No* atual = frente;
+
+    while (atual != nullptr) {
+        total++;
+        atual = atual->prox;
+    }
+
+    return total;
+}
+
+
