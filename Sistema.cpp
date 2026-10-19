@@ -1,3 +1,7 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
 void enqueue(const string& nome, int urgencia) {
     No* novo = new No(nome, urgencia);
 
