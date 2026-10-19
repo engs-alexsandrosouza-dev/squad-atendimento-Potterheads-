@@ -80,4 +80,19 @@ void push(const string& nome) {
     return total;
 }
 
+string pop() {
+    if (topo == nullptr) {
+        return "Historico vazio";
+    }
+
+    No* removido = topo;
+    string nome = removido->nome;
+
+    topo = topo->prox;
+
+    delete removido;
+    return nome;
+}
+
+
 
