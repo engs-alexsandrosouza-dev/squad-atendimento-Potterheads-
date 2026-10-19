@@ -25,7 +25,7 @@ string dequeue() {
 
     delete removido;
     return nome;
-}
+} 
 string frente_peek() const {
     if (frente == nullptr) {
         return "Fila vazia";
