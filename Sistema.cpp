@@ -93,6 +93,13 @@ string pop() {
     delete removido;
     return nome;
 }
+string peek() const {
+    if (topo == nullptr) {
+        return "Historico vazio";
+    }
+
+    return topo->nome;
+}
 
 
 
