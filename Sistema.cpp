@@ -48,3 +48,10 @@ int tamanho() const {
 
     return total;
 }
+
+string peek()const {
+    if(topo == nullptr){
+        return "Historico vazio";
+    }
+    return topo -> nome;
+}
