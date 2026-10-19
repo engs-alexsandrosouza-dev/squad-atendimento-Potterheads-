@@ -234,9 +234,9 @@ int main() {
 // ════════════════════════════════════════════════════════════════
 // CHECKLIST DE ENTREGA
 // ════════════════════════════════════════════════════════════════
-// [ ] TODO 1 — enqueue funciona (paciente entra na fila)
-// [ ] TODO 2 — dequeue funciona (paciente sai da fila, memória liberada)
-// [ ] TODO 3 — frente_peek retorna o nome sem remover
+// [x] TODO 1 — enqueue funciona (paciente entra na fila)
+// [x] TODO 2 — dequeue funciona (paciente sai da fila, memória liberada)
+// [x] TODO 3 — frente_peek retorna o nome sem remover
 // [ ] TODO 4 — push empilha no histórico
 // [ ] TODO 5 — pop desempilha e libera memória
 // [ ] TODO 6 — peek retorna o topo sem remover
