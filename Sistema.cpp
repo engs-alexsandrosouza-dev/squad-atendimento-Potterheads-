@@ -66,7 +66,12 @@ struct FilaPacientes {
         return total;
     }
 };
+void push(const string& nome) {
+    No* novo = new No(nome);
 
+    novo->prox = topo;
+    topo = novo;
+}
 void push(const string& nome) {
     int tamanho() const {
     int total = 0;
