@@ -72,6 +72,19 @@ void push(const string& nome) {
     novo->prox = topo;
     topo = novo;
 }
+string pop() {
+    if (topo == nullptr) {
+        return "Historico vazio";
+    }
+
+    No* removido = topo;
+    string nome = removido->nome;
+
+    topo = topo->prox;
+
+    delete removido;
+    return nome;
+}
 void push(const string& nome) {
     int tamanho() const {
     int total = 0;
