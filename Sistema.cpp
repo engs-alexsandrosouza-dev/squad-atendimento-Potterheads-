@@ -85,6 +85,13 @@ string pop() {
     delete removido;
     return nome;
 }
+string peek() const {
+    if (topo == nullptr) {
+        return "Historico vazio";
+    }
+
+    return topo->nome;
+}
 void push(const string& nome) {
     int tamanho() const {
     int total = 0;
