@@ -1,18 +1,10 @@
-Como compilar:
-1-abra uma pasta no terminal clicando com o botão direito na pasta e indo na opção abrir no terminal
-2-copie o código do repositório no Github
-3-digite no terminal (git clone https://github.com/engs-alexsandrosouza-dev/squad-atendimento-Potterheads-.git)
-4-apos clonar o repositório é só digitar no terminal(code .)
-5-
-Exemplo de saída:
-<img width="976" height="486" alt="image" src="https://github.com/user-attachments/assets/2c3143be-5892-4f30-9edc-da492c36e1f9" />
-Desafio Squad — Sistema de Atendimento
-Sistema em C++17 que implementa manualmente uma fila FIFO de pacientes, uma pilha LIFO de atendimentos e uma lista encadeada de médicos, sem contêineres STL.
+Desafio Squad PotterHeads — Sistema de Atendimento
+Sistema em C++17 que implementa manualmente uma fila FIFO de pacientes, uma pilha LIFO de atendimentos e uma lista encadeada de médicos.
 
 Compilação
 g++ -std=c++17 -Wall -Wextra -pedantic -o atendimento atendimento.cpp
+
 Execução
-Linux/macOS: ./atendimento
 Windows (PowerShell): ./atendimento.exe
 
 Funcionalidades
@@ -21,6 +13,16 @@ R2: push, pop, peek.
 R3: adicionarMedico, chamarMedico, percorrer.
 R4: imprimirHistorico mostra do mais recente ao mais antigo, usando uma pilha auxiliar e restaurando o histórico.
 A fila atende por ordem de chegada (FIFO). A urgência é armazenada, mas não define prioridade.
+
+Como compilar:
+1-Abra uma pasta no terminal clicando com o botão direito na pasta e indo na opção abrir no terminal
+2-Copie o código do repositório no Github
+3-Digite no terminal (git clone https://github.com/engs-alexsandrosouza-dev/squad-atendimento-Potterheads-.git)
+4-Após clonar o repositório é só digitar no terminal(code .)
+
+Exemplo de saída:
+<img width="976" height="486" alt="image" src="https://github.com/user-attachments/assets/2c3143be-5892-4f30-9edc-da492c36e1f9" />
+
 
 Exemplo de saída
 === Sistema de Atendimento - Squad ===
