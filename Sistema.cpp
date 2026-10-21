@@ -269,9 +269,9 @@ int main() {
     // R3 - CADASTRAR MEDICOS
     // =========================================
 
-    medicos.adicionarMedico("Dra. Ana Louise");
-    medicos.adicionarMedico("Dra. Bruna Costa");
-    medicos.adicionarMedico("Dr. Carlos Ramos");
+    medicos.adicionarMedico("Dr. Jean Luís");
+    medicos.adicionarMedico("Dra. Luana Rocha");
+    medicos.adicionarMedico("Dr. Marlene do Nascimento Ramos");
 
     medicos.percorrer("Medicos disponiveis");
 
